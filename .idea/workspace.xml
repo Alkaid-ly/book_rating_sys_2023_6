@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="book_rating_sys:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="144c63db-9bd8-4561-bb42-3e6e8d2b03dd" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../book_rating_system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cc0ddac-a5df-4247-a0ab-e4ef3f7ca10e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cc0ddac-a5df-4247-a0ab-e4ef3f7ca10e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/test/DevTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/test/DevTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +38,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/JavaEE课设/book_rating_sys/src/main/java/com/ssm/dao",
+    "last_opened_file_path": "E:/JavaEE课设/book_rating_sys/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +88,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27011493",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "cf14fa6856f58e0bcafe24c81e766dfe",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -82,27 +99,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaEE课设\book_rating_sys\src\main\java\com\ssm\dao" />
       <recent name="E:\JavaEE课设\book_rating_sys\src\main\resources" />
+      <recent name="E:\JavaEE课设\book_rating_sys\src\main\java\com\ssm" />
+      <recent name="E:\JavaEE课设\book_rating_sys\src\main\java\com\ssm\dao" />
       <recent name="E:\JavaEE课设\book_rating_sys\src\main\java\com\ssm\pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DevTest.testApp">
-    <configuration name="DevTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_rating_sys" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ssm.test.DevTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.37">
     <configuration name="DevTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_rating_sys" />
       <extension name="coverage">
@@ -119,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DevTest.testDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DevTest.testBookDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_rating_sys" />
       <extension name="coverage">
         <pattern>
@@ -129,17 +132,159 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ssm.test" />
       <option name="MAIN_CLASS_NAME" value="com.ssm.test.DevTest" />
-      <option name="METHOD_NAME" value="testDao" />
+      <option name="METHOD_NAME" value="testBookDao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DevTest.testByNameAndPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_rating_sys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ssm.test.DevTest" />
+      <option name="METHOD_NAME" value="testByNameAndPass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevTest.testCommentDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_rating_sys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ssm.test.DevTest" />
+      <option name="METHOD_NAME" value="testCommentDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevTest.testUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_rating_sys" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ssm.test.DevTest" />
+      <option name="METHOD_NAME" value="testUserDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="book_rating_sys:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/book_rating_sys_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="462c8404-08a4-43c1-842e-5270fae771ef" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59727" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DevTest.testApp" />
+      <item itemvalue="JUnit.DevTest.testBookDao" />
+      <item itemvalue="JUnit.DevTest.testByNameAndPass" />
+      <item itemvalue="JUnit.DevTest.testCommentDao" />
+      <item itemvalue="JUnit.DevTest.testUserDao" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.37" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DevTest.testByNameAndPass" />
+        <item itemvalue="JUnit.DevTest.testUserDao" />
+        <item itemvalue="JUnit.DevTest.testCommentDao" />
+        <item itemvalue="JUnit.DevTest.testBookDao" />
         <item itemvalue="JUnit.DevTest.testApp" />
-        <item itemvalue="JUnit.DevTest.testDao" />
-        <item itemvalue="JUnit.DevTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +303,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685840471651</updated>
       <workItem from="1685840473107" duration="11010000" />
+      <workItem from="1685893587893" duration="206000" />
+      <workItem from="1685922796537" duration="1112000" />
+      <workItem from="1685937794356" duration="2635000" />
+      <workItem from="1685940463030" duration="1766000" />
+      <workItem from="1685946380132" duration="612000" />
+      <workItem from="1685949355413" duration="1487000" />
+      <workItem from="1685962893592" duration="784000" />
+      <workItem from="1685965547874" duration="5415000" />
     </task>
     <servers />
   </component>

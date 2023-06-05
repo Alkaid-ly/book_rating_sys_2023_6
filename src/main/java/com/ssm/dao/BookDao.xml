@@ -13,7 +13,7 @@
         <result column="publish_date" property="publishDate" />
         <result column="img_url" property="imgUrl" />
         <result column="description" property="description" />
-        <result column="tags" property="tages"/>
+        <result column="tags" property="tags"/>
     </resultMap>
     <select id="getBookById" resultMap="bookMap">
         select * from book where book_id=#{id}

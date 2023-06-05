@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class User {
     private Integer userId;
-    private String userNmae;
+    private String userName;
     private String password;
     private Integer age;
     private String gender;
@@ -17,7 +17,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "userId=" + userId +
-                ", userNmae='" + userNmae + '\'' +
+                ", userNmae='" + userName + '\'' +
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
@@ -36,12 +36,12 @@ public class User {
         this.userId = userId;
     }
 
-    public String getUserNmae() {
-        return userNmae;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUserNmae(String userNmae) {
-        this.userNmae = userNmae;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getPassword() {

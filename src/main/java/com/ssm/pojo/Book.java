@@ -12,7 +12,7 @@ public class Book {
     private Date publishDate;
     private String imgUrl;
     private String description;
-    private String tages;
+    private String tags;
 
     @Override
     public String toString() {
@@ -26,7 +26,7 @@ public class Book {
                 ", publishDate='" + publishDate + '\'' +
                 ", imgUrl='" + imgUrl + '\'' +
                 ", description='" + description + '\'' +
-                ", tages='" + tages + '\'' +
+                ", tages='" + tags + '\'' +
                 '}';
     }
 
@@ -102,11 +102,11 @@ public class Book {
         this.description = description;
     }
 
-    public String getTages() {
-        return tages;
+    public String getTags() {
+        return tags;
     }
 
-    public void setTages(String tages) {
-        this.tages = tages;
+    public void setTags(String tags) {
+        this.tags = tags;
     }
 }
