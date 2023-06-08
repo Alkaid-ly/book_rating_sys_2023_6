@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.dao.UserDao">
+    <resultMap id="userMap" type="User">
+        <id property="userId" column="user_id"/>
+        <result property="userName" column="username" />
+        <result property="password" column="password" />
+        <result property="age" column="age" />
+        <result property="gender" column="gender" />
+        <result property="regdate" column="regdate" />
+        <result property="phone" column="phone" />
+        <result property="type" column="type" />
+        <result property="status" column="status" />
+    </resultMap>
+    <insert id="insertUser" parameterType="User" useGeneratedKeys="true" keyProperty="userId">
+        insert into user (username, password, age, gender, regdate,phone, type, status)
+        values (#{userName},#{password},#{age},#{gender},now(),#{phone},#{type},#{status});
+    </insert>
+    <select id="selectAllUsers" resultMap="userMap">
+        select * from user;
+    </select>
+    <select id="getUserByNameAndPass" resultMap="userMap">
+        select * from user where username=#{userName} and password=#{password,jdbcType=VARCHAR};
+    </select>
+    <select id="getUserByName" resultType="com.ssm.pojo.User">
+        select * from user where username=#{userName}
+    </select>
+</mapper>

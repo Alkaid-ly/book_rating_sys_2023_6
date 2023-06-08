@@ -9,23 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="144c63db-9bd8-4561-bb42-3e6e8d2b03dd" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="144c63db-9bd8-4561-bb42-3e6e8d2b03dd" name="变更" comment="实现了用户注册">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cc0ddac-a5df-4247-a0ab-e4ef3f7ca10e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cc0ddac-a5df-4247-a0ab-e4ef3f7ca10e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/test/DevTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/test/DevTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +26,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -73,30 +60,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/JavaEE课设/book_rating_sys/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27011493",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "cf14fa6856f58e0bcafe24c81e766dfe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JavaEE课设/book_rating_sys/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27011493&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cf14fa6856f58e0bcafe24c81e766dfe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaEE课设\book_rating_sys\src\main\resources" />
@@ -105,22 +93,16 @@
       <recent name="E:\JavaEE课设\book_rating_sys\src\main\java\com\ssm\pojo" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.37">
-    <configuration name="DevTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_rating_sys" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssm.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ssm.test.DevTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="#11" runType="运行单个请求">
+      <method v="2" />
     </configuration>
     <configuration name="DevTest.testBookDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_rating_sys" />
@@ -268,10 +250,13 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="book_rating_sys:war exploded" />
+        </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DevTest.testApp" />
+      <item itemvalue="HTTP 请求.generated-requests | #11" />
       <item itemvalue="JUnit.DevTest.testBookDao" />
       <item itemvalue="JUnit.DevTest.testByNameAndPass" />
       <item itemvalue="JUnit.DevTest.testCommentDao" />
@@ -280,11 +265,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 请求.generated-requests | #11" />
         <item itemvalue="JUnit.DevTest.testByNameAndPass" />
         <item itemvalue="JUnit.DevTest.testUserDao" />
         <item itemvalue="JUnit.DevTest.testCommentDao" />
         <item itemvalue="JUnit.DevTest.testBookDao" />
-        <item itemvalue="JUnit.DevTest.testApp" />
       </list>
     </recent_temporary>
   </component>
@@ -310,8 +295,20 @@
       <workItem from="1685946380132" duration="612000" />
       <workItem from="1685949355413" duration="1487000" />
       <workItem from="1685962893592" duration="784000" />
-      <workItem from="1685965547874" duration="5415000" />
+      <workItem from="1685965547874" duration="5673000" />
+      <workItem from="1686122719912" duration="1159000" />
+      <workItem from="1686186206458" duration="201000" />
+      <workItem from="1686189751260" duration="1727000" />
+      <workItem from="1686199848883" duration="1307000" />
     </task>
+    <task id="LOCAL-00001" summary="实现了用户注册">
+      <created>1685971213164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685971213164</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,5 +324,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现了用户注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了用户注册" />
   </component>
 </project>
